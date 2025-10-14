@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World! Leason2");
+﻿using Leason2;
+Kamaz kamaz=new Kamaz();
+Console.WriteLine(kamaz.sum(5, 7));
+Console.WriteLine(kamaz.sum(5, 7, 5));
+Console.WriteLine(kamaz.sum(5, 7.8));
