@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace asdasd.Class.BaseClass
 {
-    public class Сar
+    public abstract class Сar
     {
         private int Id;
         internal string Name;
